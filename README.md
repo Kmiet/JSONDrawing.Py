@@ -8,7 +8,7 @@ Drawing figures with Python using PyGame. All the data has to be predefined in J
 #
 #### Installation
 
-According to [PyGame wiki] download it using PIP:
+According to [PyGame wiki] download library using PIP:
 ```sh
 $ python3 -m pip install -U pygame --user
 ```
@@ -16,7 +16,7 @@ $ python3 -m pip install -U pygame --user
 #### Usage example:
 #
 ```sh
-$ python main.py <INPUT.JSON> [-o OUTPUT_FILE.PNG]
+$ python main.py <INPUT_FILE.JSON> [-o OUTPUT_FILE.PNG]
 ```
 
 #### JSON file example:
