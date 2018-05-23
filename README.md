@@ -1,7 +1,6 @@
 # JSONDrawing.Py
 Drawing figures with Python using PyGame. All the data has to be predefined in JSON file as shown in example below.
 ## Tech
-#
 | Library | Link |
 | ------ | ------ |
 | PyGame | [PyGame] |
