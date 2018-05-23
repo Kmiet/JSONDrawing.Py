@@ -1,28 +1,3 @@
-# JSONDrawing.Py
-Drawing figures with Python using PyGame. All the data has to be predefined in JSON file as shown in example below.
-## Tech
-#
-| Library | Link |
-| ------ | ------ |
-| PyGame | [PyGame] |
-
-#
-#### Installation
-
-According to [PyGame wiki] download it using PIP:
-```sh
-$ python3 -m pip install -U pygame --user
-```
-#
-#### Usage example:
-#
-```sh
-$ python main.py <INPUT.JSON> [-o OUTPUT_FILE.PNG]
-```
-
-#### JSON file example:
-#
-```json
 {
     "Figures": [
         {"type": "point", "x": 1, "y": 0},
@@ -34,10 +9,3 @@ $ python main.py <INPUT.JSON> [-o OUTPUT_FILE.PNG]
     "Screen": {"width": 800, "height": 600, "bg_color": "black", "fg_color": "red"},
     "Palette": {"red": "#ff0000", "blue": "#0000ff", "black": "#000000"}
 }
-```
-#
-
-
-   [PyGame wiki]: <https://www.pygame.org/wiki/GettingStarted>
-   [PyGame]: <https://www.pygame.org/>
-   
